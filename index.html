@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App by Raj</title>
+    <link rel="shortcut icon" href="mylogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <div class="app">
+        <header class="header glassy">
+            <h1>⛅Weather App by Raj</h1>
+            <div class="search-bar">
+                <input type="text" id="cityInput" placeholder="Search for other cities..." />
+                <button id="searchBtn">Search</button>
+            </div>
+        </header>
+
+        <main class="glass-container">
+            <section class="current-weather glassy">
+                <h2 id="cityName">City</h2>
+                <div id="weatherIcon" class="weather-icon"></div>
+                <h3 id="temperature">--°C</h3>
+                <p id="weatherDescription">Description</p>
+            </section>
+
+            <section class="details">
+                <div class="detail glassy"><strong>Humidity:</strong> <span id="humidity">--%</span></div>
+                <div class="detail glassy"><strong>Wind Speed:</strong> <span id="windSpeed">-- km/h</span></div>
+                <div class="detail glassy"><strong>Air Quality:</strong> <span id="airQuality">--</span></div>
+            </section>
+            <div class="made-by-section">
+                <p>Made with <span class="heart">❤️</span> by 
+                    <a href="https://github.com/your-github-username" target="_blank">Raj</a>
+                </p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
