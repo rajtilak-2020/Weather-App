@@ -6,7 +6,7 @@
 ![Built with JavaScript](https://img.shields.io/badge/JavaScript-yellow?style=button-square)
 
 🌟 **Welcome to the Weather App!** 🌟  
-Your one-stop solution to check live weather updates for any location in the world! 🌎  
+It is a front-end web application built using HTML, CSS, and JavaScript. It fetches real-time weather data from a weather API (such as OpenWeatherMap API) using asynchronous JavaScript (fetch). The app dynamically updates the user interface based on API responses, displaying temperature, weather conditions, and location-specific details.🌎  
 
 ---
 
