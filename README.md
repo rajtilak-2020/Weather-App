@@ -8,7 +8,6 @@
 🌟 **Welcome to the Weather App!** 🌟  
 It is a front-end web application built using HTML, CSS, and JavaScript. It fetches real-time weather data from a weather API (such as OpenWeatherMap API) using asynchronous JavaScript (fetch). The app dynamically updates the user interface based on API responses, displaying temperature, weather conditions, and location-specific details.🌎  
 
----
 
 ## 🎯 **Features**
 - **Real-Time Weather Data**: Fetch accurate weather information with one click.  
